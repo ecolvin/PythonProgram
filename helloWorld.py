@@ -21,4 +21,4 @@ data = [
 def home():
   return jsonify(data)
 
-app.run()
+app.run(host='0.0.0.0', port=80)
